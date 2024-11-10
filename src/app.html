@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    %sveltekit.head%
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-JQBHT57NNS"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag("js", new Date())
+
+    gtag("config", "G-JQBHT57NNS")
+  </script>
+  <body
+    data-sveltekit-preload-data="hover"
+    style="min-height: 100vh; display: flex; flex-direction: column"
+  >
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+  <!-- Cal element-click embed code begins -->
+  <script type="text/javascript">
+    ;(function (C, A, L) {
+      let p = function (a, ar) {
+        a.q.push(ar)
+      }
+      let d = C.document
+      C.Cal =
+        C.Cal ||
+        function () {
+          let cal = C.Cal
+          let ar = arguments
+          if (!cal.loaded) {
+            cal.ns = {}
+            cal.q = cal.q || []
+            d.head.appendChild(d.createElement("script")).src = A
+            cal.loaded = true
+          }
+          if (ar[0] === L) {
+            const api = function () {
+              p(api, arguments)
+            }
+            const namespace = ar[1]
+            api.q = api.q || []
+            if (typeof namespace === "string") {
+              cal.ns[namespace] = cal.ns[namespace] || api
+              p(cal.ns[namespace], ar)
+              p(cal, ["initNamespace", namespace])
+            } else p(cal, ar)
+            return
+          }
+          p(cal, ar)
+        }
+    })(window, "https://app.cal.com/embed/embed.js", "init")
+    Cal("init", "60min", { origin: "https://cal.com" })
+    Cal.ns["60min"]("ui", {
+      styles: { branding: { brandColor: "#000000" } },
+      hideEventTypeDetails: false,
+      layout: "week_view",
+    })
+  </script>
+  <!-- Cal element-click embed code ends -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js"
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js"
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyANhqdhX-8JR16b39LAIptujn5Nl9edJ7s",
+      authDomain: "programyzer.firebaseapp.com",
+      projectId: "programyzer",
+      storageBucket: "programyzer.appspot.com",
+      messagingSenderId: "941576780847",
+      appId: "1:941576780847:web:7146fcdeef6abbb8fa1ada",
+      measurementId: "G-JQBHT57NNS",
+    }
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig)
+    const analytics = getAnalytics(app)
+  </script>
+</html>
