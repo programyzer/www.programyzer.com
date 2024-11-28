@@ -139,7 +139,7 @@
 
           {#if Object.keys(errors).length > 0}
             <p class="text-red-600 text-sm mb-2">
-              Please resolve above issues.
+              Please resolve above issues. {JSON.stringify(errors, null, 2)}
             </p>
           {/if}
 
