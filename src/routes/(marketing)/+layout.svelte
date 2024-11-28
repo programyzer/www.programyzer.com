@@ -13,8 +13,7 @@
         <button
           class="border border-primary"
           data-cal-link="enikeev/60min"
-          data-cal-namespace="60min"
-          ><i class="fas fa-video-camera"></i> Book a Call</button
+          data-cal-namespace="60min">Book a Call</button
         >
       </li>
       <!-- <li class="md:mx-2"><a href="/blog">Blog</a></li>
@@ -66,8 +65,7 @@
           <button
             class="border border-primary"
             data-cal-link="enikeev/60min"
-            data-cal-namespace="60min"
-            ><i class="fas fa-video-camera"></i> Book a Call</button
+            data-cal-namespace="60min">Book a Call</button
           >
         </li>
       </ul>

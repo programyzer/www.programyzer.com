@@ -149,16 +149,13 @@
       </div>
       <div class="mt-6 md:mt-2">
         <a href="/contact_us">
-          <button class="btn btn-primary btn-sm px-6"
-            ><i class="fas fa-envelope"></i> Email Now</button
-          >
+          <button class="btn btn-primary btn-sm px-6">Email Now</button>
         </a>
         <button
           data-cal-link="enikeev/60min"
           data-cal-namespace="60min"
           class="btn btn-outline btn-primary btn-sm px-6 mt-3 mx-2"
-        >
-          <i class="fas fa-video-camera"></i> Book a Call
+          >Book a Call
         </button>
       </div>
     </div>
