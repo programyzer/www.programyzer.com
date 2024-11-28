@@ -4,7 +4,6 @@
     WebsiteBaseUrl,
     WebsiteDescription,
   } from "./../../config"
-  import "@fortawesome/fontawesome-free/css/all.min.css"
 
   const ldJson = {
     "@context": "https://schema.org",
