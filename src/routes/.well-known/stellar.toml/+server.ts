@@ -35,7 +35,7 @@ image="https://programyzer.com/favicon.png"`
   return new Response(content, {
     headers: {
       "Access-Control-Allow-Origin": "*",
-      "content-type": "text/plain",
+      "content-type": "application/toml",
     },
   })
 }
