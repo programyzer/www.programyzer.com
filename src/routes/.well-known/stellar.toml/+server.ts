@@ -30,7 +30,8 @@ display_decimals=0
 is_asset_anchored=false
 name="RINAT"
 desc="RINAT - a personal token fixes the issuer's obligations to provide their service provider within 1 hour of working time for 1 token in the field of his professional competencies and capabilities: mobile application developmen and business consulting. You can find me in Telegram @programyzer"
-image="https://programyzer.com/favicon.png"`
+image="https://programyzer.com/favicon.png"
+`
 
   return new Response(content, {
     headers: {
