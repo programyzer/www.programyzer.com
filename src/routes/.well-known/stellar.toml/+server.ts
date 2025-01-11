@@ -4,7 +4,7 @@ import type { RequestHandler } from "@sveltejs/kit"
 export const GET: RequestHandler = async () => {
   try {
     // Read the content of the stellar.toml file from your filesystem
-    const content = await fs.readFile("src/.well-known/stellar.toml", "utf-8")
+    const content = await fs.readFile(".well-known/stellar.toml", "utf-8")
 
     return new Response(content, {
       headers: {

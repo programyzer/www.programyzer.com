@@ -17,9 +17,6 @@ export default defineConfig({
       },
     },
   ],
-  ssr: {
-    noExternal: ["fs"], // Ensure Node.js built-ins are available
-  },
   test: {
     include: ["src/**/*.{test,spec}.{js,ts}"],
     globals: true, /// allows to skip import of test functions like `describe`, `it`, `expect`, etc.
