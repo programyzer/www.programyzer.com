@@ -129,7 +129,7 @@
       <div
         class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        What we do
+        What I do
       </div>
 
       <div
@@ -224,7 +224,7 @@
   </div>
 </div> -->
 
-<div class="hero min-h-[60vh] mt-12">
+<!-- <div class="hero min-h-[60vh] mt-12">
   <div class="hero-content text-center pb-16 pt-4 px-4">
     <div class="max-w-lg">
       <div
@@ -297,4 +297,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
