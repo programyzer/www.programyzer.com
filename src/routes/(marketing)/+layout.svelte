@@ -12,8 +12,8 @@
       <li class="md:mx-4">
         <button
           class="border border-primary"
-          data-cal-link="enikeev/60min"
-          data-cal-namespace="60min">Book a Call</button
+          data-cal-link="enikeev/smd"
+          data-cal-namespace="smd">Book a Call</button
         >
       </li>
       <!-- <li class="md:mx-2"><a href="/blog">Blog</a></li>
@@ -64,8 +64,8 @@
         <li>
           <button
             class="border border-primary"
-            data-cal-link="enikeev/60min"
-            data-cal-namespace="60min">Book a Call</button
+            data-cal-link="enikeev/smd"
+            data-cal-namespace="smd">Book a Call</button
           >
         </li>
       </ul>

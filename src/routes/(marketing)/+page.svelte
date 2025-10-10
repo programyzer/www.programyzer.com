@@ -151,8 +151,8 @@
           <button class="btn btn-primary btn-sm px-6">Email Now</button>
         </a>
         <button
-          data-cal-link="enikeev/60min"
-          data-cal-namespace="60min"
+          data-cal-link="enikeev/smd"
+          data-cal-namespace="smd"
           class="btn btn-outline btn-primary btn-sm px-6 mt-3 mx-2"
           >Book a Call
         </button>
