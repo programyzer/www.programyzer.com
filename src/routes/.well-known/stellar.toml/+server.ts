@@ -9,6 +9,7 @@ SIGNING_KEY="GCR3GN73U3G4CHAHPINTWZGH2ZIRTVZ4WNHWYSB3FZOU63W22IGRINAT"
 
 ACCOUNTS=[
 "GCR3GN73U3G4CHAHPINTWZGH2ZIRTVZ4WNHWYSB3FZOU63W22IGRINAT",
+"GBLMLML3OY7JIUC6NI7WBUP734Q6OLPXZTLEIKR44KJTA33KPV75MTDL",
 ]
 
 VERSION="2.1.0"
@@ -20,7 +21,7 @@ ORG_NAME="PROGRAMYZER"
 ORG_OFFICIAL_EMAIL="contact@programyzer.com"
 ORG_GITHUB="programyzer"
 ORG_LOGO="https://programyzer.com/favicon.png"
-ORG_DESCRIPTION="Programyzer offers mobile development services"
+ORG_DESCRIPTION="Programyzer is Rinat Enikeev"
 
 [[CURRENCIES]]
 code="RINAT"
@@ -31,6 +32,16 @@ is_asset_anchored=false
 name="RINAT"
 desc="RINAT - a personal token fixes the issuer's obligations to provide their service provider within 1 hour of working time for 1 token in the field of his professional competencies and capabilities: mobile application developmen and business consulting. You can find me in Telegram @programyzer"
 image="https://programyzer.com/favicon.png"
+
+[[CURRENCIES]]
+code="MTDL"
+issuer="GBLMLML3OY7JIUC6NI7WBUP734Q6OLPXZTLEIKR44KJTA33KPV75MTDL"
+status="live"
+display_decimals=0
+is_asset_anchored=false
+name="MTDL"
+desc="MTDL - a token to pay for the services of the MTDL Think Tank"
+image="https://programyzer.com/mtdl.png"
 `
 
   return new Response(content, {
