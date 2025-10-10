@@ -147,9 +147,9 @@
         Let’s start the conversation today
       </div>
       <div class="mt-6 md:mt-2">
-        <a href="/contact_us">
+        <!-- <a href="/contact_us">
           <button class="btn btn-primary btn-sm px-6">Email Now</button>
-        </a>
+        </a> -->
         <button
           data-cal-link="enikeev/smd"
           data-cal-namespace="smd"
