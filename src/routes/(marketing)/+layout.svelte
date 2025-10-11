@@ -13,7 +13,7 @@
         <button
           class="border border-primary"
           data-cal-link="enikeev/smd"
-          data-cal-namespace="smd">Book a Call</button
+          data-cal-namespace="smd">Записаться на звонок</button
         >
       </li>
       <!-- <li class="md:mx-2"><a href="/blog">Blog</a></li>
@@ -65,7 +65,7 @@
           <button
             class="border border-primary"
             data-cal-link="enikeev/smd"
-            data-cal-namespace="smd">Book a Call</button
+            data-cal-namespace="smd">Записаться на звонок</button
           >
         </li>
       </ul>
@@ -85,7 +85,7 @@
     class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base"
   >
     <nav>
-      <span class="footer-title opacity-80">Explore</span>
+      <span class="footer-title opacity-80">Обзор</span>
       <!-- <a class="link link-hover mb-1" href="/">Overview</a> -->
       <!-- <a class="link link-hover my-1" href="/pricing">Pricing</a>
       <a class="link link-hover my-1" href="/blog">Blog</a> -->
@@ -95,7 +95,7 @@
       >
     </nav>
     <aside>
-      <span class="footer-title opacity-80">Acknowledgements</span>
+      <span class="footer-title opacity-80">Благодарности</span>
       <a
         class="link link-hover max-w-[260px]"
         href="https://openwebui.com/"
