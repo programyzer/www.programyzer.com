@@ -12,8 +12,11 @@
       <li class="md:mx-4">
         <button
           class="border border-primary"
-          data-cal-link="enikeev/smd"
-          data-cal-namespace="smd">Записаться на звонок</button
+          data-cal-link="enikeev/15min"
+          data-cal-namespace="15min"
+          >Записаться на звонок <span class="text-sm opacity-70"
+            >(бесплатно)</span
+          ></button
         >
       </li>
       <!-- <li class="md:mx-2"><a href="/blog">Blog</a></li>
@@ -64,8 +67,11 @@
         <li>
           <button
             class="border border-primary"
-            data-cal-link="enikeev/smd"
-            data-cal-namespace="smd">Записаться на звонок</button
+            data-cal-link="enikeev/15min"
+            data-cal-namespace="15min"
+            >Записаться на звонок <span class="text-sm opacity-70"
+              >(бесплатно)</span
+            ></button
           >
         </li>
       </ul>
@@ -85,24 +91,18 @@
     class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base"
   >
     <nav>
-      <span class="footer-title opacity-80">Обзор</span>
+      <span class="footer-title opacity-80">О проекте</span>
       <!-- <a class="link link-hover mb-1" href="/">Overview</a> -->
       <!-- <a class="link link-hover my-1" href="/pricing">Pricing</a>
       <a class="link link-hover my-1" href="/blog">Blog</a> -->
       <!-- <a class="link link-hover my-1" href="/contact_us">Contact Us</a> -->
-      <a class="link link-hover my-1" href="https://github.com/programyzer"
-        >Github</a
+      <a
+        class="link link-hover my-1"
+        href="https://github.com/gameoffounders/com.programyzer">Исходный код</a
       >
     </nav>
     <aside>
       <span class="footer-title opacity-80">Благодарности</span>
-      <a
-        class="link link-hover max-w-[260px]"
-        href="https://openwebui.com/"
-        target="_blank"
-      >
-        Open WebUI
-      </a>
       <a
         class="link link-hover max-w-[260px]"
         href="https://saasstarter.work/"

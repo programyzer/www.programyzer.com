@@ -29,7 +29,7 @@
       <div
         class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        Чем я занимаюсь
+        Чем мы занимаемся
       </div>
 
       <div
@@ -43,18 +43,18 @@
         >
         <!-- <span>reasoning</span> -->
       </div>
-      <div class="mt-6 md:mt-10 text-sm md:text-lg">
-        Давайте начнём разговор сегодня
-      </div>
+      <div class="mt-6 md:mt-10 text-sm md:text-lg">Передайте нам проблему</div>
       <div class="mt-6 md:mt-2">
         <!-- <a href="/contact_us">
           <button class="btn btn-primary btn-sm px-6">Email Now</button>
         </a> -->
         <button
-          data-cal-link="enikeev/smd"
-          data-cal-namespace="smd"
+          data-cal-link="enikeev/15min"
+          data-cal-namespace="15min"
           class="btn btn-outline btn-primary btn-sm px-6 mt-3 mx-2"
-          >Записаться на звонок
+          >Записаться на звонок<span class="text-sm opacity-70"
+            >(бесплатно)</span
+          >
         </button>
       </div>
     </div>
