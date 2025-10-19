@@ -1338,6 +1338,12 @@
         <span>•</span>
         <span>Base map © OpenStreetMap contributors</span>
       </div>
+      <a
+        href="https://logo.dev"
+        target="_blank"
+        rel="noopener"
+        class="text-gray-600 text-sm">Logos provided by Logo.dev</a
+      >
     </div>
   </div>
 </div>
