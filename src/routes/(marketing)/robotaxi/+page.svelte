@@ -559,6 +559,30 @@
     window.showMainMap = showMainMap
   })
 
+  async function loadCountriesAndCities() {
+    // @ts-expect-error - Leaflet is loaded dynamically
+    const L = window.L
+    if (!L || !map) return
+
+    try {
+      // Load countries GeoJSON from Natural Earth
+      const countriesResponse = await fetch(
+        "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
+      )
+      const countries = await countriesResponse.json()
+
+      // Add countries to map with simple black borders
+      L.geoJSON(countries, {
+        color: "#000",
+        weight: 1,
+        fillColor: "#f8f9fa",
+        fillOpacity: 0.3,
+      }).addTo(map)
+    } catch (error) {
+      console.error("Error loading countries and cities data:", error)
+    }
+  }
+
   function initMap() {
     // @ts-expect-error - Leaflet is loaded dynamically
     const L = window.L
@@ -567,10 +591,8 @@
     // Init map
     map = L.map(mapContainer, { worldCopyJump: true }).setView([25, 10], 2)
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 18,
-      attribution: "&copy; OpenStreetMap contributors",
-    }).addTo(map)
+    // Load countries GeoJSON data
+    loadCountriesAndCities()
 
     // Icon factory + markers
     const iconCache: { [key: string]: unknown } = {}
@@ -1372,7 +1394,7 @@
       >
         <span>Generated on {new Date().toISOString().split("T")[0]}</span>
         <span>•</span>
-        <span>Base map © OpenStreetMap contributors</span>
+        <span>Political borders from Natural Earth</span>
       </div>
       <a
         href="https://logo.dev"
