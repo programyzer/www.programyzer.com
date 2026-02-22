@@ -69,9 +69,7 @@
             class="border border-primary"
             data-cal-link="enikeev/15min"
             data-cal-namespace="15min"
-            >Записаться на звонок <span class="text-sm opacity-70"
-              >(бесплатно)</span
-            ></button
+            >Записаться на звонок</button
           >
         </li>
       </ul>
