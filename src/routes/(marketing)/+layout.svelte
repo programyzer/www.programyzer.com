@@ -98,7 +98,7 @@
       <!-- <a class="link link-hover my-1" href="/contact_us">Contact Us</a> -->
       <a
         class="link link-hover my-1"
-        href="https://github.com/gameoffounders/com.programyzer">Исходный код</a
+        href="https://github.com/programyzer/www.programyzer.com">Исходный код</a
       >
     </nav>
     <aside>
