@@ -14,9 +14,7 @@
           class="border border-primary"
           data-cal-link="enikeev/15min"
           data-cal-namespace="15min"
-          >Book a call <span class="text-sm opacity-70"
-            >(free)</span
-          ></button
+          >Book a call <span class="text-sm opacity-70">(free)</span></button
         >
       </li>
       <!-- <li class="md:mx-2"><a href="/blog">Blog</a></li>
@@ -95,8 +93,7 @@
       <!-- <a class="link link-hover my-1" href="/contact_us">Contact Us</a> -->
       <a
         class="link link-hover my-1"
-        href="https://github.com/programyzer/www.programyzer.com"
-        >Source code</a
+        href="https://github.com/programyzer/www.programyzer.com">Source code</a
       >
     </nav>
     <aside>
