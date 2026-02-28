@@ -29,21 +29,21 @@
       <div
         class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-3 md:mb-7 pb-1"
       >
-        Чем мы занимаемся
+        What we do
       </div>
 
       <div
         class="text-4xl md:text-6xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        <span>ИИ</span>
+        <span>AI</span>
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >агенты</span
+          >agents</span
         >
         <!-- <span>reasoning</span> -->
       </div>
-      <div class="mt-6 md:mt-10 text-sm md:text-lg">Передайте нам проблему</div>
+      <div class="mt-6 md:mt-10 text-sm md:text-lg">Share your problem with us</div>
       <div class="mt-6 md:mt-2">
         <!-- <a href="/contact_us">
           <button class="btn btn-primary btn-sm px-6">Email Now</button>
@@ -52,8 +52,8 @@
           data-cal-link="enikeev/15min"
           data-cal-namespace="15min"
           class="btn btn-outline btn-primary btn-sm px-6 mt-3 mx-2"
-          >Записаться на звонок<span class="text-sm opacity-70"
-            >(бесплатно)</span
+          >Book a call<span class="text-sm opacity-70"
+            >(free)</span
           >
         </button>
       </div>
