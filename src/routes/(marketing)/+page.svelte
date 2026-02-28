@@ -36,10 +36,10 @@
         class="text-4xl md:text-6xl font-bold px-2"
         style="line-height: 1.2;"
       >
-        <span>Непредвзятое</span>
+        <span>ИИ</span>
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >мышление</span
+          >агенты</span
         >
         <!-- <span>reasoning</span> -->
       </div>
