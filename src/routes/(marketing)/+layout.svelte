@@ -14,8 +14,8 @@
           class="border border-primary"
           data-cal-link="enikeev/15min"
           data-cal-namespace="15min"
-          >Записаться на звонок <span class="text-sm opacity-70"
-            >(бесплатно)</span
+          >Book a call <span class="text-sm opacity-70"
+            >(free)</span
           ></button
         >
       </li>
@@ -68,7 +68,7 @@
           <button
             class="border border-primary"
             data-cal-link="enikeev/15min"
-            data-cal-namespace="15min">Записаться на звонок</button
+            data-cal-namespace="15min">Book a call</button
           >
         </li>
       </ul>
@@ -88,7 +88,7 @@
     class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base"
   >
     <nav>
-      <span class="footer-title opacity-80">О проекте</span>
+      <span class="footer-title opacity-80">About</span>
       <!-- <a class="link link-hover mb-1" href="/">Overview</a> -->
       <!-- <a class="link link-hover my-1" href="/pricing">Pricing</a>
       <a class="link link-hover my-1" href="/blog">Blog</a> -->
@@ -96,11 +96,11 @@
       <a
         class="link link-hover my-1"
         href="https://github.com/programyzer/www.programyzer.com"
-        >Исходный код</a
+        >Source code</a
       >
     </nav>
     <aside>
-      <span class="footer-title opacity-80">Благодарности</span>
+      <span class="footer-title opacity-80">Credits</span>
       <a
         class="link link-hover max-w-[260px]"
         href="https://saasstarter.work/"
