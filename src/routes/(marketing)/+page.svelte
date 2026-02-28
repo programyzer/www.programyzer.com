@@ -43,7 +43,9 @@
         >
         <!-- <span>reasoning</span> -->
       </div>
-      <div class="mt-6 md:mt-10 text-sm md:text-lg">Share your problem with us</div>
+      <div class="mt-6 md:mt-10 text-sm md:text-lg">
+        Share your problem with us
+      </div>
       <div class="mt-6 md:mt-2">
         <!-- <a href="/contact_us">
           <button class="btn btn-primary btn-sm px-6">Email Now</button>
@@ -52,9 +54,7 @@
           data-cal-link="enikeev/15min"
           data-cal-namespace="15min"
           class="btn btn-outline btn-primary btn-sm px-6 mt-3 mx-2"
-          >Book a call<span class="text-sm opacity-70"
-            >(free)</span
-          >
+          >Book a call<span class="text-sm opacity-70">(free)</span>
         </button>
       </div>
     </div>
