@@ -68,8 +68,7 @@
           <button
             class="border border-primary"
             data-cal-link="enikeev/15min"
-            data-cal-namespace="15min"
-            >Записаться на звонок</button
+            data-cal-namespace="15min">Записаться на звонок</button
           >
         </li>
       </ul>
@@ -96,7 +95,8 @@
       <!-- <a class="link link-hover my-1" href="/contact_us">Contact Us</a> -->
       <a
         class="link link-hover my-1"
-        href="https://github.com/programyzer/www.programyzer.com">Исходный код</a
+        href="https://github.com/programyzer/www.programyzer.com"
+        >Исходный код</a
       >
     </nav>
     <aside>
